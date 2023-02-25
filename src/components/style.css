@@ -1,0 +1,96 @@
+/* Navbar Component */
+nav{
+    background-color: #F55A5A;
+    display:flex;
+    justify-content: center;
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(255, 82, 82, 0.397);
+    padding-top:1em;
+    padding-bottom:1em;
+}
+.navbar-img{
+    width: 1.8rem;
+    margin:0.18em;
+}
+nav > h1{
+    color: white;
+	margin: 0;
+	font-weight: 400;
+	font-size: 1.2em;
+	letter-spacing: -0.015em;
+	padding: 0.18em;
+}
+/* END Navbar Component */
+
+/* Card Component */
+.card-img{
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.card{
+    padding:1.2em;
+    display:flex;
+    justify-content: center;
+}
+.card-text{
+    padding-left: 1.2em;
+}
+.card-location{
+    padding-left: 0.4em;
+    padding-right:1em;
+    font-weight: 400;
+    font-size: 0.85rem;
+    letter-spacing: 0.10rem;
+    color: #2B283A;
+}
+.card-maps{
+    font-size: 0.85rem;
+    text-decoration-line:underline;
+    color: #918E9B;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #2B283A;
+    margin: 0.25rem 0;
+  }
+.card-date{
+    margin: 0;
+    font-weight: bold;
+    margin-top: 13px;
+}
+.card-description{
+    max-width: 50rem;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 0.90rem;
+    line-height: 150%;
+    color: #2B283A;
+}
+.cards-app > .card + .card {
+    border-top: 1px solid #918e9b;
+  }
+/* END Card Component */
+
+/* Footer Component */
+footer{
+    background-color: #F55A5A;
+    justify-content: center;
+    display:flex;
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(255, 82, 82, 0.397);
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+footer > h1{
+    color: white;
+	margin: 0;
+	font-weight: 400;
+	font-size: 0.8em;
+	letter-spacing: -0.015em;
+	padding: 0.18em;
+}
+/* END Footer Component */
